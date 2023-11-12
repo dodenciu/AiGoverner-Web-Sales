@@ -1,0 +1,61 @@
+body {
+    background: #0074d9;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Frutiger', Arial, sans-serif;
+}
+
+.card-container {
+    text-align: center; /* Center the card container */
+}
+
+.card {
+    display: flex;
+    background-color: #000;
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 600px; /* Increased card width */
+    color: #fff;
+    text-align: center; /* Center text in columns */
+    font-family: 'Frutiger', Arial, sans-serif;
+    margin: 0 auto;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.vertical-line {
+    border-left: 1px solid #333;
+}
+
+.button {
+    background-color: #ff9900; /* Match page background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Frutiger', Arial, sans-serif;
+}
+
+.button:hover {
+    background-color: #FFD700; /* Match page background color on hover */
+}
+
+.marketing-text {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Frutiger', Arial, sans-serif; /* Use Frutiger with fallback */
+}
+
+.marketing-icon {
+    font-size: 24px;
+    margin: 0 5px;
+}
